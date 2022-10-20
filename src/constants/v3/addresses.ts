@@ -56,12 +56,12 @@ export const FARMING_CENTER: AddressMap = {
 };
 
 export const V2_FACTORY_ADDRESSES: AddressMap = {
-  [ChainId.MATIC]: '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32',
+  [ChainId.MATIC]: '0x2fcb5d3ab09b5a3aefca6fda5c62074411aea6b3',
 };
 
 export const EXCHANGE_FACTORY_ADDRESS_MAPS: ExchangeAddressMap = {
   [V2Exchanges.Quickswap]: {
-    [ChainId.MATIC]: '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32',
+    [ChainId.MATIC]: '0x2fcb5d3ab09b5a3aefca6fda5c62074411aea6b3',
   },
   [V2Exchanges.SushiSwap]: {
     [ChainId.MATIC]: '0xc35dadb65012ec5796536bd9864ed8773abc74c4',
