@@ -46,14 +46,14 @@ export function colors(darkMode: boolean): Colors {
     // backgrounds / greys
     bg0: darkMode ? '#282d3d' : '#FFFFFF',
     bg1: darkMode ? '#404557' : '#FFFFFF',
-    bg2: darkMode ? '#404557' : '#F7F8FA',
+    bg2: darkMode ? '#404557' : '#1856AF',
     bg3: darkMode ? '#40444F' : '#EDEEF2',
     bg4: darkMode ? '#565A69' : '#CED0D9',
     bg5: darkMode ? '#6C7284' : '#888D9B',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
-    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
+    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(63,97,241,0.6)',
 
     //primary colors
     primary1: darkMode ? '#2172E5' : '#2891F9',

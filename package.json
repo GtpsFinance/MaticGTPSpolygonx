@@ -146,6 +146,7 @@
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@paraswap/sdk": "^5.6.0-alpha.6",
     "apexcharts": "3.32.1",
+    "dependencies": "^0.0.1",
     "i18next-http-backend": "^1.4.1",
     "market-sdk": "^2.2.0",
     "numbro": "^2.3.5",
@@ -160,5 +161,17 @@
     "sass": "^1.51.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3"
-  }
+  },
+  "description": "An open source interface for QuickSwap -- a protocol for decentralized exchange on Polygon.",
+  "main": "config-overrides.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuickSwap/interface-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/QuickSwap/interface-v2/issues"
+  },
+  "homepage": "https://github.com/QuickSwap/interface-v2#readme"
 }
