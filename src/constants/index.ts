@@ -56,7 +56,7 @@ export const GlobalConst = {
       [ChainId.MUMBAI]: undefined,
     },
     ROUTER_ADDRESS: {
-      [ChainId.MUMBAI]:'0xf1192cc4dffb4a96d938cca17cc1bd36787e2824',
+      [ChainId.MUMBAI]:'0x2d07585d5f3d79fdf7bb2fc6a6767027a787a8b8',
     }, //'0x6207A65a8bbc87dD02C3109D2c74a6bCE4af1C8c';//
     ZERO_ADDRESS: '0x0000000000000000000000000000000000000000',
     LAIR_ADDRESS: '0xf28164a485b0b2c90639e47b0f377b4a438a16b1',
