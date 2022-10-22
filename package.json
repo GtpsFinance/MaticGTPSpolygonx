@@ -145,6 +145,7 @@
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@paraswap/sdk": "^5.6.0-alpha.6",
+    "@uniswap/v3-periphery": "^1.4.2",
     "apexcharts": "3.32.1",
     "dependencies": "^0.0.1",
     "i18next-http-backend": "^1.4.1",
