@@ -143,14 +143,11 @@ const AddLiquidity: React.FC<{
   const [approvingB, setApprovingB] = useState(false);
   const [approvalA, approveACallback] = useApproveCallback(
     parsedAmounts[Field.CURRENCY_A],
-    chainId ? GlobalConst.addresses.ROUTER_ADDRESS [chainId] : undefined,
-  );
-  const [approvalB, approveBCallback] = useApproveCallback(
-    parsedAmounts[Field.CURRENCY_B],
-    chainId ? GlobalConst.addresses.ROUTER_ADDRESS [chainId] : undefined,
+   //@ts-ignore parsedAmounts[Field.CURRENCY_B],
+    chainId ? GlobalConst.addresses.ROUTER_ADDRESS[chainId] : undefined,
   );
 
-  const userPoolBalance = useTokenBalance(
+  //@ts-ignore const userPoolBalance = useTokenBalance(
     account ?? undefined,
     pair?.liquidityToken,
   );
