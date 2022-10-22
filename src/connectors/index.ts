@@ -13,7 +13,7 @@ import { SafeAppConnector } from './SafeApp';
 const POLLING_INTERVAL = 12000;
 
 const NETWORK_URL = 'https://polygon-rpc.com/';
-// const FORMATIC_KEY = 'pk_live_F937DF033A1666BF'
+// const FORMATIC_KEY = 'pk_live_0A8702CA0A3D9FC4 '
 // const PORTIS_ID = 'c0e2bf01-4b08-4fd5-ac7b-8e26b58cd236'
 const FORMATIC_KEY = process.env.REACT_APP_FORTMATIC_KEY;
 const PORTIS_ID = process.env.REACT_APP_PORTIS_ID;

@@ -146,7 +146,7 @@ const AddLiquidity: React.FC<{
   );
   const [approvalB, approveBCallback] = useApproveCallback(
     parsedAmounts[Field.CURRENCY_B],
-    chainId ? GlobalConst.addresses.ROUTER_ADDRESS[chainId] : undefined,
+    chainId ? GlobalConst.addresses.ROUTER_ADDRESS[chainId:Matic] : undefined,
   );
 
   const userPoolBalance = useTokenBalance(
