@@ -44,6 +44,7 @@ import { ReactComponent as AddLiquidityIcon } from 'assets/images/AddLiquidityIc
 import useParsedQueryString from 'hooks/useParsedQueryString';
 import { useCurrency } from 'hooks/Tokens';
 import { useParams } from 'react-router-dom';
+import { Matic } from 'v3lib/entities/matic';
 
 const AddLiquidity: React.FC<{
   currencyBgClass?: string;
@@ -142,11 +143,11 @@ const AddLiquidity: React.FC<{
   const [approvingB, setApprovingB] = useState(false);
   const [approvalA, approveACallback] = useApproveCallback(
     parsedAmounts[Field.CURRENCY_A],
-    chainId ? GlobalConst.addresses.ROUTER_ADDRESS[chainId] : undefined,
+    chainId ? GlobalConst.addresses.ROUTER_  ADDRESS[chainId] : undefined,
   );
   const [approvalB, approveBCallback] = useApproveCallback(
     parsedAmounts[Field.CURRENCY_B],
-    chainId ? GlobalConst.addresses.ROUTER_ADDRESS[chainId:Matic] : undefined,
+    chainId ? GlobalConst.addresses.ROUTER_ADDRESS[chainId:Mumbai] : undefined,
   );
 
   const userPoolBalance = useTokenBalance(
